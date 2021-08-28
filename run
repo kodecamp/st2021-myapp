@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Using with MVND using fd command: and using the awk to filter the output
+fd --search-path ./target --type f | entr -p mvnd test
+
