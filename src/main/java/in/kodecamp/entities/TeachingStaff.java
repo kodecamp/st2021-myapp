@@ -1,5 +1,11 @@
 package in.kodecamp.entities;
 
-public interface TeachingStaff {
+
+// Every teachingstaff is a person
+public interface TeachingStaff extends Person {
+
+  public String specialization();
+  public double salary();
+  public String designation();
 
 }
