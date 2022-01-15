@@ -9,6 +9,5 @@ public class App {
         // Sql2o("jdbc:h2:tcp://127.0.0.1:9092/~/h2/databases/myappdb;IFNOTEXISTS",
         // "myappdb", "myappdb");
 
-
     }
 }
